@@ -1,0 +1,529 @@
+<!doctype html>
+<html data-country='DE' lang='de'>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Continental-Media</title>
+    <meta NAME="publisher" CONTENT="Yeonkyo Kim">
+    <meta NAME="copyright" CONTENT="Yeonkyo Kim">
+    <meta NAME="keywords" CONTENT="Musik, Singen, CD, Buecher, Volkhard Spitzer, Yeonkyo Kim,">
+    <meta NAME="description" CONTENT="... weil gute Nachrichten gut klingen müssen!">
+    <meta NAME="expires" CONTENT="NEVER">
+    <meta NAME="page-type" CONTENT="Kultur, Musik, Literatur">
+    <meta NAME="robots" CONTENT="INDEX,FOLLOW">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+    <nav>
+    <ul class="list-unstyled main-menu">
+
+        <!--Include your navigation here-->
+        <li class="text-right"><a href="index.html#" id="nav-close">X</a></li>
+        <li>
+            <a id="bibeltv" href="index.html#modBibeltv"><img class="img-fluid" src="img/bibel-tv.jpg" alt="Bibel TV" /></a>
+            <div id="modBibeltv" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Freitags: 14.30 Uhr</p>
+                    <p class="card-text">Montags: 9.00, 1.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="anixe" href="index.html#"><img class="img-fluid" src="img/anixe.jpg" alt="Anixe TV" /></a>
+            <div id="modAnixe" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 6.00, 8.30, 18.30 Uhr</p>
+                    <p class="card-text">Sonntags: 6.00, 18.30 Uhr</p>
+                    <p class="card-text">Donnerstags: 6.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="tvberlin" href="index.html#"><img class="img-fluid" src="img/tv-berlin.jpg" alt="TV Berlin" /></a>
+            <div id="modTVBerlin" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Sonntags: 8.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="alex" href="index.html#"><img class="img-fluid" src="img/alex.jpg" alt="Alex TV" /></a>
+            <div id="modAlex" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 7.30 Uhr</p>
+                    <p class="card-text">Dienstags: 6.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="schweiz5" href="index.html#"><img class="img-fluid" src="img/schweiz-5.jpg" alt="Schweiz5 TV" /></a>
+            <div id="modSchweiz5" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 9.00 Uhr</p>
+                    <p class="card-text">Sonntags: 9.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="rmtv" href="index.html#"><img class="img-fluid" src="img/rmtv.jpg" alt="Rhein Main TV" /></a>
+            <div id="modRmtv" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Mittwochs: 11.30 Uhr</p>
+                    <p class="card-text">Samstags: 4.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="gott24" href="index.html#"><img class="img-fluid" src="img/gott-24-tv.jpg" alt="Gott 24 TV" /></a>
+            <div id="modGott24" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Dienstags: 19.00 Uhr</p>
+                    <p class="card-text">Mittwochs: 19.00 Uhr</p>
+                    <p class="card-text">Donnerstags: 19.00 Uhr</p>
+                    <p class="card-text">Freitags: 19.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="cgn" href="index.html#"><img class="img-fluid" src="img/cgn-tv-seoul.jpg" alt="CGN Seoul TV" /></a>
+            <div id="modCgn" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Freitags: 00.40 Uhr</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div class="top-bar">
+    <div class="top-bar-title">
+        <img class="thumbnail" src="img/spitzer.jpg">
+        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon dark" type="button" data-toggle></button>
+            </span>
+    </div>
+    <div id="responsive-menu">
+        <div class="top-bar-right">
+            <div class="menu">
+                <div class="button-bar">
+                    <div class="stacked-for-small large button-group round">
+                        <a href="index.html" class="success button">Home</a>
+                        <a href="audio/1" class="secondary button">Audio CD's</a>
+                        <a href="extra/1" class="success button">Extra's</a>
+                        <a href="video/1" class="warning button">DVD's</a>
+                        <a href="buch/1" class="alert button">B&uuml;cher</a>
+                    </div>
+                    <div class="stacked-for-small large button-group">
+                        <a class="success button nav-expander" id="nav-expander">TV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="warenkorb" class="row expanded">
+        <div class="small-4 small-offset-8 columns">
+            <div id="winfos">
+                <span id="anzahl">0 Artikel im Warenkorb</span><br>
+                <span id="preis">Gesamtbetrag: 0 €</span><br>
+                <span> <a href="warenkorb">Zum Warenkorb</a></span><br>
+                <span> <a href="kasse">Zur Kasse</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="main" class="row">
+        <div class="small-12 columns">
+            <div class="advertise-text">
+                <p><h1>... weil gute Nachrichten gut klingen müssen!</h1></p>
+                <p><h3>Lassen Sie sich von unserem Angebot inspirieren</h3></p>
+            </div>
+            <div id="angebote" class="orbit"  data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;" data-swipe="true">
+                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button><button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                        <div class="primary callout large cd-cover">
+                            <div class="row column">
+                                <h1>Predigten als Audio-CD</h1>
+                            </div>
+                            <div class="row" data-equalizer data-equalize-on="medium" id="au-eq">
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                <a href="produkt/101607241"><img class="full-width-image" alt="" src="img/p01.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="http://mediashop.de/101607241">&quot;Der Himmel ist nicht käuflich!&quot;(Römer 3:23-24)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="101607241" idp="5.00" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/101504121"><img class="full-width-image" alt="" src="img/p02.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/101504121">&quot;Noch keiner ist von den Toten zurückgekehrtv&quot; (Johannes 20:19-29)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="101504121" idp="5.00"  style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/101404131"><img class="full-width-image" alt="" src="img/p03.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/101404131">&quot;Leben Tote wirklich weiter?&quot; (Johannes 11)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="101404131" idp="5.00"  style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="row column" style="text-align: center;">
+                                <a href="abo" class="success large button">Keine Neuerscheinung verpassen. Zu den Abonnements.</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="primary callout large extra-cover">
+                            <div class="row column">
+                                <h1>Musikalische Leckerbissen</h1>
+                            </div>
+                            <div class="row" data-equalizer data-equalize-on="medium" id="ml-eq">
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/110007"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/cover03.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/110007">Überleben in schweren Zeiten</a></h3>
+                                            </header>
+                                                                                        <div class="activity-infos">
+                                                <div class="activity-info activity-duration">
+                                                    <br>
+                                                    <span class="activity-info-value activity-duration-value">Ein Herr mittleren Alters kommt aufgewühlt zum Gespräch ins Turmzimmer: 
+ &quot;Ich frage Sie,</span>
+                                                </div>
+                                            </div>
+                                            <div class="activity-card-price-rating ">
+                                                <span class="price"><a href="produkt/110007">... mehr Details</a></span>
+                                            </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="110007" idp="5.00"  style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/110009"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/Cover08.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/110009">Wie Gott die Menschen sieht</a></h3>
+                                            </header>
+                                                                                            <div class="activity-infos">
+                                                    <div class="activity-info activity-duration">
+                                                        <br>
+                                                        <span class="activity-info-value activity-duration-value">Wussten Sie, dass Jesus niemals direkt einen Menschen als Sünder bezeichnet hat? 
+ Auch Volkhard</span>
+                                                    </div>
+                                                </div>
+                                                <div class="activity-card-price-rating ">
+                                                    <span class="price"><a href="produkt/110009">... mehr Details</a></span>
+                                                </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="110009" idp="5.00"   style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/110001"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/cover01.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/110001">Freude Pur</a></h3>
+                                            </header>
+                                                                                            <div class="activity-infos">
+                                                    <div class="activity-info activity-duration">
+                                                        <br>
+                                                        <span class="activity-info-value activity-duration-value">Wunderschöne Klaviermusik-bekannte Liedsätze (u.a. Welch ein Freund ist unser Jesus, Wenn</span>
+                                                    </div>
+                                                </div>
+                                                <div class="activity-card-price-rating ">
+                                                    <span class="price"><a href="produkt/110001">... mehr Details</a></span>
+                                                </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="110001" idp="5.00" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€5.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="row column" style="text-align: center;">
+                                <a href="abo" class="success large button">Keine Neuerscheinung verpassen. Zu den Abonnements.</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="primary callout large dvd-cover">
+                            <div class="row column">
+                                <h1>Predigten als DVD</h1>
+                            </div>
+                            <div class="row" data-equalizer data-equalize-on="medium" id="dvd-eq">
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/131607241"><img class="full-width-image" alt="" src="img/p04.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/131607241">&quot;Der Himmel ist nicht käuflich!&quot;(Römer 3:23-24)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="131607241" idp="7.00" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€7.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/130947"><img class="full-width-image" alt="" src="img/p05.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/130947">Zwei Freunde - ihre verschiedenen Wege (Psalm 89:16-18)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="130947" idp="7.00" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€7.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/131512201"><img class="full-width-image" alt="" src="img/p06.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/131512201">&quot;Ein kosmisches Ereignis steht bevor&quot; (Jes.9: 1-6, Offb.1: 7-8)</a></h3>
+                                            </header>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="131512201" idp="7.00" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€7.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="row column" style="text-align: center;">
+                                <a href="abo" class="success large button">Keine Neuerscheinung verpassen. Zu den Abonnements.</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="primary callout large buch-cover">
+                            <div class="row column">
+                                <h1>Das Leben meistern</h1>
+                            </div>
+                            <div class="row" data-equalizer data-equalize-on="medium" id="buch-eq">
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/160003"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/Buch3.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/160003">HOFFNUNG FÜR DIE ZUKUNFT</a></h3>
+                                            </header>
+                                                                                            <div class="activity-infos">
+                                                    <div class="activity-info activity-duration">
+                                                        <br>
+                                                        <span class="activity-info-value activity-duration-value">Was dieses Buch so außergewöhnlich macht,  - nicht nur unsere Epoche - ist die zeitlose Botschaft,</span>
+                                                    </div>
+                                                </div>
+                                                <div class="activity-card-price-rating ">
+                                                    <span class="price"><a href="produkt/160003">... mehr Details</a></span>
+                                                </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="160003" idp="11.90" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€11.90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/160004"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/Buch3.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/160004">Der Himmel ist nicht leer</a></h3>
+                                            </header>
+                                                                                            <div class="activity-infos">
+                                                    <div class="activity-info activity-duration">
+                                                        <br>
+                                                        <span class="activity-info-value activity-duration-value">- Biografie -
+Glaubenstärkende Erfahrungen und humorvolle Erzählungen aus dem Leben Pastor</span>
+                                                    </div>
+                                                </div>
+                                                <div class="activity-card-price-rating ">
+                                                    <span class="price"><a href="produkt/160004">... mehr Details</a></span>
+                                                </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="160004" idp="11.90" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€11.90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="medium-4">
+                                    <article id="cd" class="activity-card activity-card-vertical" data-equalizer-watch>
+                                        <div class="activity-card-content">
+                                            <div class="activity-card-image-container">
+                                                                                                    <a href="produkt/160002"><img class="full-width-image" alt="" src="http://www.cross-continental-media.com/images/Buch2.jpg"></a>
+                                                                                            </div>
+                                        </div>
+                                        <div style="height: auto;" class="activity-card-details ">
+                                            <header class="activity-card-header">
+                                                <h3 class="activity-card-title"><a href="produkt/160002">Überirdische Begegnungen</a></h3>
+                                            </header>
+                                                                                            <div class="activity-infos">
+                                                    <div class="activity-info activity-duration">
+                                                        <br>
+                                                        <span class="activity-info-value activity-duration-value">Außergewöhnliche Erfahrungen mit Gott, real erlebt!
+Von Pastor Spitzer lebensnah geschildert</span>
+                                                    </div>
+                                                </div>
+                                                <div class="activity-card-price-rating ">
+                                                    <span class="price"><a href="produkt/160002">... mehr Details</a></span>
+                                                </div>
+                                                                                        <div class="activity-card-price-rating ">
+                                                <div class="activity-card-price-tag">
+                                                    <span><a class="alert medium button sale" id="160002" idp="11.90" style="float: left;">Bestellen</a></span>
+                                                    <span class="price">€11.90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="row column" style="text-align: center;">
+                                <a href="abo" class="success large button">Keine Neuerscheinung verpassen. Zu den Abonnements.</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <div class="expanded row">
+        <div class="small-12 medium-4 columns">
+            <img class="hide-for-small-only" src="img/logo.png" alt="Pastor Spitzer">
+            <span style="float:right;margin-top:24px;">© 2014–2016 Cross Continental Media</span>
+        </div>
+        <div class="small-12 medium-4 columns">
+            <ul class="z-links">
+                <li><a href="agb">Geschäftsbedingungen</a></li>
+                <li><a href="datenschutz">Datenschutz</a></li>
+                <li><a href="impressum">Impressum</a></li>
+            </ul>
+        </div>
+        <div class="small-12 medium-4 columns">
+            <ul class="home-social">
+                <li><a href="https://twitter.com/ckbi_de?lang=de" target="_blank" class="twitter"></a></li>
+                <li><a href="https://www.facebook.com/CityKircheBerlin/" target="_blank" class="facebook"></a></li>
+                <li><a href="https://www.youtube.com/user/happysundays11" target="_blank" class="youtube"></a></li>
+                <li><a href="kontakt" class="mail"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

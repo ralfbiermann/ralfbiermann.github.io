@@ -1,0 +1,425 @@
+<!doctype html>
+<html data-country='DE' lang='de'>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Continental-Media</title>
+    <meta NAME="publisher" CONTENT="Yeonkyo Kim">
+    <meta NAME="copyright" CONTENT="Yeonkyo Kim">
+    <meta NAME="keywords" CONTENT="Musik, Singen, CD, Buecher, Volkhard Spitzer, Yeonkyo Kim,">
+    <meta NAME="description" CONTENT="... weil gute Nachrichten gut klingen müssen!">
+    <meta NAME="expires" CONTENT="NEVER">
+    <meta NAME="page-type" CONTENT="Kultur, Musik, Literatur">
+    <meta NAME="robots" CONTENT="INDEX,FOLLOW">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="../css/app.css" />
+</head>
+<body>
+    <nav>
+    <ul class="list-unstyled main-menu">
+
+        <!--Include your navigation here-->
+        <li class="text-right"><a href="24#" id="nav-close">X</a></li>
+        <li>
+            <a id="bibeltv" href="24#modBibeltv"><img class="img-fluid" src="../img/bibel-tv.jpg" alt="Bibel TV" /></a>
+            <div id="modBibeltv" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Freitags: 14.30 Uhr</p>
+                    <p class="card-text">Montags: 9.00, 1.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="anixe" href="24#"><img class="img-fluid" src="../img/anixe.jpg" alt="Anixe TV" /></a>
+            <div id="modAnixe" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 6.00, 8.30, 18.30 Uhr</p>
+                    <p class="card-text">Sonntags: 6.00, 18.30 Uhr</p>
+                    <p class="card-text">Donnerstags: 6.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="tvberlin" href="24#"><img class="img-fluid" src="../img/tv-berlin.jpg" alt="TV Berlin" /></a>
+            <div id="modTVBerlin" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Sonntags: 8.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="alex" href="24#"><img class="img-fluid" src="../img/alex.jpg" alt="Alex TV" /></a>
+            <div id="modAlex" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 7.30 Uhr</p>
+                    <p class="card-text">Dienstags: 6.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="schweiz5" href="24#"><img class="img-fluid" src="../img/schweiz-5.jpg" alt="Schweiz5 TV" /></a>
+            <div id="modSchweiz5" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Samstags: 9.00 Uhr</p>
+                    <p class="card-text">Sonntags: 9.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="rmtv" href="24#"><img class="img-fluid" src="../img/rmtv.jpg" alt="Rhein Main TV" /></a>
+            <div id="modRmtv" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Mittwochs: 11.30 Uhr</p>
+                    <p class="card-text">Samstags: 4.30 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="gott24" href="24#"><img class="img-fluid" src="../img/gott-24-tv.jpg" alt="Gott 24 TV" /></a>
+            <div id="modGott24" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Dienstags: 19.00 Uhr</p>
+                    <p class="card-text">Mittwochs: 19.00 Uhr</p>
+                    <p class="card-text">Donnerstags: 19.00 Uhr</p>
+                    <p class="card-text">Freitags: 19.00 Uhr</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="cgn" href="24#"><img class="img-fluid" src="../img/cgn-tv-seoul.jpg" alt="CGN Seoul TV" /></a>
+            <div id="modCgn" style="display:none;">
+                <div class="card card-block">
+                    <h4 class="card-title">Sendezeiten:</h4>
+                    <p class="card-text">Freitags: 00.40 Uhr</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div class="top-bar">
+    <div class="top-bar-title">
+        <img class="thumbnail" src="../img/spitzer.jpg">
+        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon dark" type="button" data-toggle></button>
+            </span>
+    </div>
+    <div id="responsive-menu">
+        <div class="top-bar-right">
+            <div class="menu">
+                <div class="button-bar">
+                    <div class="stacked-for-small large button-group round">
+                        <a href="../index.html" class="success button">Home</a>
+                        <a href="1" class="secondary button">Audio CD's</a>
+                        <a href="../extra/1" class="success button">Extra's</a>
+                        <a href="../video/1" class="warning button">DVD's</a>
+                        <a href="../buch/1" class="alert button">B&uuml;cher</a>
+                    </div>
+                    <div class="stacked-for-small large button-group">
+                        <a class="success button nav-expander" id="nav-expander">TV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="warenkorb" class="row expanded">
+        <div class="small-4 small-offset-8 columns">
+            <div id="winfos">
+                <span id="anzahl">0 Artikel im Warenkorb</span><br>
+                <span id="preis">Gesamtbetrag: 0 €</span><br>
+                <span> <a href="../warenkorb">Zum Warenkorb</a></span><br>
+                <span> <a href="../kasse">Zur Kasse</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div id="main" class="row">
+        <div class="small-12 columns">
+            <div class="advertise-text">
+                <p><h1>Predigten von V. Spitzer als Audio - CD</h1></p>
+                <p><h3>Geeignet zum Abspielen auf CD-Playern</h3></p>
+            </div>
+            <div class="pager row">
+                <p class="amount columns small-12 medium-4 left">Einträge 231 bis 240 von 467</p>
+                <div class="pages columns small-12 medium-4 end">
+                    <ul class="pagination">
+                                                    <li><a href="23"><p class="amount">Vorherige Einträge</p></a></li>
+                            <li><a href="23"><img src="../img/links.png" alt=""></a></li>
+                                                                            <li><a href="25"><img src="../img/rechts.png" alt=""></a></li>
+                            <li><a href="25"><p class="amount">Weitere Einträge</p></a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div id="productlist">
+    <ol id="products-list" class="product-list view-list">
+                                            <li class="item row" style="background:white;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101103201" title="&quot;Bischof Dr. Gordon McDonald - Psalm 23&quot; (Psalm 23)" class="product-image">
+                                                    <img src="../img/p01.jpg" class="bordered radius" alt="&quot;Bischof Dr. Gordon McDonald - Psalm 23&quot; (Psalm 23)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101103201" title="&quot;Bischof Dr. Gordon McDonald - Psalm 23&quot; (Psalm 23)">&quot;Bischof Dr. Gordon McDonald - Psalm 23&quot; (Psalm 23) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101103201" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:honeydew;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101103131" title="&quot;Die Botschaft eines Wunders&quot; (Joh. 6:1-13)" class="product-image">
+                                                    <img src="../img/p02.jpg" class="bordered radius" alt="&quot;Die Botschaft eines Wunders&quot; (Joh. 6:1-13)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101103131" title="&quot;Die Botschaft eines Wunders&quot; (Joh. 6:1-13)">&quot;Die Botschaft eines Wunders&quot; (Joh. 6:1-13) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101103131" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:white;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101103061" title="&quot;Hören und Wunder erleben&quot; (Markus  4:13-20)" class="product-image">
+                                                    <img src="../img/p03.jpg" class="bordered radius" alt="&quot;Hören und Wunder erleben&quot; (Markus  4:13-20)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101103061" title="&quot;Hören und Wunder erleben&quot; (Markus  4:13-20)">&quot;Hören und Wunder erleben&quot; (Markus  4:13-20) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101103061" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:honeydew;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101102271" title="&quot;Glaube - ein Jungbrunnen&quot; (4 Mose 13,14, Josua 14)" class="product-image">
+                                                    <img src="../img/p04.jpg" class="bordered radius" alt="&quot;Glaube - ein Jungbrunnen&quot; (4 Mose 13,14, Josua 14)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101102271" title="&quot;Glaube - ein Jungbrunnen&quot; (4 Mose 13,14, Josua 14)">&quot;Glaube - ein Jungbrunnen&quot; (4 Mose 13,14, Josua 14) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101102271" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:white;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101102201" title="&quot;Menschen, die mich vor Resignation bewahrten&quot;" class="product-image">
+                                                    <img src="../img/p05.jpg" class="bordered radius" alt="&quot;Menschen, die mich vor Resignation bewahrten&quot;">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101102201" title="&quot;Menschen, die mich vor Resignation bewahrten&quot;">&quot;Menschen, die mich vor Resignation bewahrten&quot; <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101102201" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:honeydew;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101102131" title="&quot;Wie Gott zu Menschen spricht&quot; (Apg. 16:6-10)" class="product-image">
+                                                    <img src="../img/p06.jpg" class="bordered radius" alt="&quot;Wie Gott zu Menschen spricht&quot; (Apg. 16:6-10)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101102131" title="&quot;Wie Gott zu Menschen spricht&quot; (Apg. 16:6-10)">&quot;Wie Gott zu Menschen spricht&quot; (Apg. 16:6-10) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101102131" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:white;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101102061" title="&quot;Der Weg aus emotionalen Niederungen&quot; (Jeremia 29:11-14)" class="product-image">
+                                                    <img src="../img/p07.jpg" class="bordered radius" alt="&quot;Der Weg aus emotionalen Niederungen&quot; (Jeremia 29:11-14)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101102061" title="&quot;Der Weg aus emotionalen Niederungen&quot; (Jeremia 29:11-14)">&quot;Der Weg aus emotionalen Niederungen&quot; (Jeremia 29:11-14) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101102061" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:honeydew;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101101301" title="&quot;Warum konnte Jesus keine Wunder wirken?&quot; (Markus 5 &amp; 6)" class="product-image">
+                                                    <img src="../img/p08.jpg" class="bordered radius" alt="&quot;Warum konnte Jesus keine Wunder wirken?&quot; (Markus 5 &amp; 6)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101101301" title="&quot;Warum konnte Jesus keine Wunder wirken?&quot; (Markus 5 &amp; 6)">&quot;Warum konnte Jesus keine Wunder wirken?&quot; (Markus 5 &amp; 6) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101101301" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:white;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101101231" title="&quot;Partner im größten Unternehmen der Welt&quot; (Matth.16:13-18)" class="product-image">
+                                                    <img src="../img/p09.jpg" class="bordered radius" alt="&quot;Partner im größten Unternehmen der Welt&quot; (Matth.16:13-18)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101101231" title="&quot;Partner im größten Unternehmen der Welt&quot; (Matth.16:13-18)">&quot;Partner im größten Unternehmen der Welt&quot; (Matth.16:13-18) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101101231" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+                                            <li class="item row" style="background:honeydew;">
+                <div class="small-3 medium-2 columns product-list-image" style="text-align: center;">
+                    <a href="../produkt/101101021" title="&quot;300 für Gott und Gideon&quot; (Richter 6,7)" class="product-image">
+                                                    <img src="../img/p010.jpg" class="bordered radius" alt="&quot;300 für Gott und Gideon&quot; (Richter 6,7)">
+                                            </a>
+                </div>
+                <div class="small-9 medium-7 columns product-list-info">
+                    <h2 class="product-name">
+                        <a href="../produkt/101101021" title="&quot;300 für Gott und Gideon&quot; (Richter 6,7)">&quot;300 für Gott und Gideon&quot; (Richter 6,7) <span class="product-binding">(Audio - CD)</span></a>
+                    </h2>
+                                        <h2 class="h2small">
+                        Auch als mp3-Download verfügbar.
+                    </h2>
+                                                        </div>
+                <div class="small-9 medium-3 columns product-list-shopping">
+                    <div class="price-box uvp">
+                        <p class="regular-price">
+                            <span class="price">5.00&nbsp;€</span>
+                        </p>
+                    </div>
+                    <span><a class="alert medium button sale" id="101101021" idp="5.00">Bestellen</a></span>
+                </div>
+            </li>
+            </ol>
+</div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+    <div class="expanded row">
+        <div class="small-12 medium-4 columns">
+            <img class="hide-for-small-only" src="../img/logo.png" alt="Pastor Spitzer">
+            <span style="float:right;margin-top:24px;">© 2014–2016 Cross Continental Media</span>
+        </div>
+        <div class="small-12 medium-4 columns">
+            <ul class="z-links">
+                <li><a href="../agb">Geschäftsbedingungen</a></li>
+                <li><a href="../datenschutz">Datenschutz</a></li>
+                <li><a href="../impressum">Impressum</a></li>
+            </ul>
+        </div>
+        <div class="small-12 medium-4 columns">
+            <ul class="home-social">
+                <li><a href="https://twitter.com/ckbi_de?lang=de" target="_blank" class="twitter"></a></li>
+                <li><a href="https://www.facebook.com/CityKircheBerlin/" target="_blank" class="facebook"></a></li>
+                <li><a href="https://www.youtube.com/user/happysundays11" target="_blank" class="youtube"></a></li>
+                <li><a href="../kontakt" class="mail"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>
