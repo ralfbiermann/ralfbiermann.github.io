@@ -5,3 +5,9 @@ Unterthema 1.2
 Thema 2
 Unterthema 2.1
 Unterthema 2.2 usw.
+
+Es ist in der Regel ratsam, für jedes Thema und jedes Unterthema eine einzelne HTML-Seite mit einer einmaligen URL zu erstellen. 
+Dieses Verfahren ist insbesondere für SEO wichtig. Denn dadurch erhält Google die Möglichkeit, zu einzelnen Themen direkt zu verlinken. 
+Eine Ausnahme von der Website Struktur mit einzelnen HTML-Seiten sind die sogenannten One-Pager. Hier werden bei der Erstellung alle 
+Inhalte (meist in inhaltlich verkürzter Form) auf eine HTML-Seite gelegt. One-Pager eignen sich vor allem für mobile Webseiten. Sie sind 
+jedoch nicht geeignet, Besucher anzulocken, die sich für ein auf der Webseite untergeordnetes Thema interessieren
