@@ -1,0 +1,41 @@
+Der Grundaufbau einer einzelnen Seite
+Auch einzelne HTML-Seiten haben eine typische Struktur, an der man sich aufgrund der Besucher-Erwartungen orientieren sollte. Jede einzelne Seite einer Website besteht in der Regel aus vier Bereichen:
+
+Oben befindet sich der Kopfbereich (Header),
+direkt darunter oder im linken Seitenbereich die Navigation.
+Der Content-Bereich mit dem eigentlichen Inhalt füllt den größten Bereich aus.
+Ganz unten befindet sich ein Footer.
+Der Header enthält den Titel der Website, darunter meist eine Überschrift zweiter Ordnung für die Einzelseite. Bei der Platzierung der Navigation sollte man sich an die Gewohnheiten der User halten. Dieser Aspekt spielt für die Google-Crawler zwar keine Rolle, es besteht jedoch die Gefahr, dass die Besucher eine Navigation, die zum Beispiel am rechten Rand angeordnet ist, übersehen. Im Footer erwartet der Besucher Links zum Impressum, zur Kontaktseite, aber auch zum Auftritt des Unternehmens auf Social Media-Kanälen wie YouTube, Facebook oder Twitter.
+
+Navigation und Verlinkung
+Gerade bei Online-Shops ist es wichtig, dass der User möglichst ohne Umwege zum Ziel kommt. Eine gute Navigation als Bestandteil der Website Struktur dient im Wesentlichen zwei Zielen:
+
+Die Crawler von Google verstehen die Struktur der Website besser.
+Der Besucher kann sich auf der Seite besser orientieren.
+Die Navigation einer SEO-optimierten Website muss sich an der logischen Struktur einer Seite und dem User-Verhalten orientieren. Unter SEO-Aspekten sollte man darauf achten, die entscheidenden Keywords möglichst als Navigationselemente zu verwenden. Die Navigation sollte dabei möglichst auf JavaScript oder Flash verzichten. Die Google-Crawler verstehen am besten reines HTML. Idealerweise finden sich Keywords auch als Bestandteile der URL einer Unterseite.
+
+Bei der Erstellung der Navigation gilt die oberste Regel, dass der Besucher immer wissen sollte, wo er sich gerade befindet. Es muss ihm dafür eine einfache Möglichkeit gegeben werden. Idealerweise sollte der Besucher auf jeder Unterseite sofort diese drei Informationen finden:
+
+Wo befinde ich mich im Gesamt-Kontext dieser Website?
+Wie bin ich hierher gelangt?
+Welche Inhalte interessieren mich in diesem Zusammenhang ebenfalls?
+Eine bewährte Möglichkeit, dem Besucher die Orientierung zu erleichtern, sind sogenannte Breadcrumbs. Breadcrumbs zeigen mit einfachen Text-Links den aktuellen Pfad auf der Site auf. Ein typischer Breadcrumb sieht zum Beispiel so aus:
+
+Sie sind hier: Start > Bücher > Comics > Mangas
+Je größer die Website ist (das heißt: je mehr einzelne HTML-Seiten vorhanden sind), umso wichtiger ist die interne Verlinkung der Beiträge. Links können auch im Fließtext eines Beitrags gesetzt werden, damit der Leser sofort zu einem Thema klicken kann, das ihn interessiert. Schon vor der Erstellung der Beiträge sollte man bei der Planung eines Internetauftritts wie folgt vorgehen:
+
+Alle Inhalte der Website in logische Einheiten aufteilen
+Diese Einheiten hierarchisch ordnen
+Aufgrund der Hierarchie entsprechende Beziehungen (Links) herstellen
+Bei der Planung einer Website gilt es, streng logisch und Keyword-bezogen zu denken – unter SEO-Aspekten wirkt sich dies vor allem positiv auf die Crawler-Akzeptanz aus.
+
+Struktur und SEO
+Die Website Struktur ähnelt stark dem Ordner-System auf einem Computer. Auch CMS (Content Management Systeme) wie Contao, WordPress und Typo3 arbeiten nach diesem Prinzip. Eine durchdachte Struktur ist unter SEO-Aspekten genauso wichtig wie die Keyword-Dichte. Im Idealfall gibt es für jedes relevante Keyword eine einzelne URL. Dann weisen Suchmaschinen wie Google für einen einzelnen Begriff der entsprechenden HTML-Seite die maximale Relevanz zu. Eine übertriebene Aufteilung der Site gilt es jedoch zu verhindern. Auf jeden Fall sollte eine intuitive interne Verlinkung dafür sorgen, dass der User nie die Übersicht verliert. Dazu gibt es auch die Möglichkeit, für die relevanten Keywords spezielle Landingpages zu entwickeln.
+
+Die einzelnen Unterseiten einer Webseite sollten von der Startseite (Homepage) mit höchstens zwei Klicks zu erreichen sein. Die Strukturierung hängt natürlich auch von der Art der Webseite ab. So ist ein Blog anders strukturiert als ein Onlineshop oder ein Portal zu einem wissenschaftlichen Thema. Die Unterscheidung zwischen vertikaler und horizontaler Navigation ist jedoch bei jedem Webseitentyp gleich:
+
+Vertikale und Horizontale Verlinkung
+Die Benennung einer URL ist ebenfalls wesentlich. Schließlich taucht diese auch in den Snippets bei der Auflistung von Treffern auf eine Suchanfrage bei Google auf. Kryptische URLs laden nicht zu einem Besuch der Website ein.
+
+Fazit
+Eine durchdachte Website Struktur ist die Basis für einen gelungenen Internetauftritt. Zum einen können die Crawler von Suchmaschinen wie Google den logischen Aufbau einer Site besser verstehen, zum anderen wird den Besuchern die Orientierung auf einer Site erheblich vereinfacht. Dies sorgt für längere Besuchszeiten und ein besseres Ranking. Der Aufbau einer Website ist daher ein wesentlicher Aspekt von SEO.
