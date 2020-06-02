@@ -9019,3 +9019,115 @@ body {
 .cid-rArZNHTQFZ .media-container-row .mbr-text {
   color: #767676;
 }
+#evcal_list{
+  list-style: none !important;
+  padding: 0;
+  margin-top: 60px;
+}
+.age-month-separator{
+  margin: 1.5vw 0 4px;
+  padding: 3px 15px;
+  background-color: #d8d8d8;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.age-month-separator:first-child {
+  margin-top: 0;
+}
+.age_list_event{
+  margin-left: 0;
+  margin-bottom: 6px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  list-style-type: none;
+  transition-property: transform, opacity;
+  transition-duration: 0.2s;
+  list-style: none;
+  width: 100%;
+}
+a {
+  background: transparent;
+}
+.age_events_list .age_list_event .desc_trig {
+  cursor: pointer;
+}
+.age_events_list .age_list_event a.evcal_list_a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  height: 89px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.age_events_list .age_list_event a .age_grey-bg {
+  position: absolute;
+  background-color: #c1c1c1;
+  width: 89px;
+  height: 89px;
+}
+.age_events_list .age_list_event a .age_colored-bg {
+  position: absolute;
+  background-color: red;
+  width: 3px;
+  height: 89px;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.ag_evcal_calendar .age_events_list p {
+  padding: 0;
+  margin-bottom: 6px !important;
+  margin-top: 0px;
+}
+.age_events_list .age_list_event .evcal_cblock {
+  color: #ffffff;
+  font-size: 1.875rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 95px;
+  background-color: transparent !important;
+  position: absolute;
+  height: 89px;
+  width: 89px;
+  margin: 0 6px 0 0;
+  padding: 0px;
+}
+.age_events_list .age_list_event .evcal_desc {
+  margin-left: 5px;
+  padding: 20px 15px 0 100px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.age_events_list .age_list_event .evcal_desc span.evcal_desc2 {
+  color: #5c5c5c;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 4px;
+  display: block;
+}
+#evcal_list .age_list_event .evcal_desc span.evcal_event_title {
+  line-height: 120%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.age_events_list .age_list_event .evcal_desc .evcal_desc_info {
+  font-size: 16px;
+  line-height: 120%;
+  color: #5c5c5c;
+}
+.evcal_evdata_short {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #767676;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+}
