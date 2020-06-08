@@ -4609,3 +4609,75 @@ background: #656B50; /* Old browsers */
   margin-top: -3px;
   background: black;
   cursor: pointer; }
+  .card2 {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    background-color:darkslategray;
+}
+.card-img-top2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card-block2 {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+.profile2 {
+    position: absolute;
+    top: -24px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.profile-avatar2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card-title2 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+.meta2 {
+    font-size: 1em;
+    color: #fff;
+}
+.meta2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.meta2 a:hover {
+    color: #fff;
+}
+.card-text2 {
+    clear: both;
+    margin-top: .5em;
+    color: #fff;
+}
+.card-footer2 {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    padding: 1.25rem;
+}
