@@ -21,7 +21,21 @@
   <link rel="stylesheet" href="vendor/mobirise/css/mbr-additional.css" type="text/css">
   <link href="vendor/fontawesome/css/all.css" rel="stylesheet">
  <style>
- 
+     /*
+ video:-webkit-full-page-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+video {
+    object-fit: contain;
+}
+*/
  </style>
 </head>
 <body>
@@ -71,8 +85,8 @@
     </nav>
   </section>
 
-<section class="header1 cid-wortzumtag" id="wzt">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+<section class="header1 cid-wortzumtag" id="wzt" style="background-color: teal;">
+    <div class="mbr-overlay" style="opacity: 0.5; /*background-color: rgb(35, 35, 35);*/"></div>
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-lg-3">
@@ -96,15 +110,12 @@
                                 <div class="card-body text-center">
                                   <h5 class="h5 font-weight-bold"><a href="http://www.josuagemeinde.de/" target="_blank">Pastor Harald Sommerfeld</a></h5>
                                   <p class="mb-0">WzT 29.05.2020</p>
-                                  <audio id="music" preload="true">
-                                    <source src="assets/audio/2020-05-29_WzT.mp3">
+                                  
+                                  <!-- -->
+                                  <audio controls="" autoplay="" name="media" style="margin-top: 20px;">
+                                    <source src="assets/audio/2020-05-29_WzT.mp3" type="audio/mpeg">
                                   </audio>
-                                  <div id="audioplayer">
-                                    <i id="pButton" class="fas fa-play"></i>
-                                    <div id="timeline">
-                                      <div id="playhead"></div>
-                                    </div>
-                                  </div>
+                                  
                                 </div>
                               </div>
                               <!-- Card -->
@@ -143,16 +154,12 @@
                             Josua Gemeinde Berlin
                         </div>
                     </div>
-                    <div class="card-footer2" style="margin-bottom: 50px;">
-                        <audio id="music" preload="true">
-                            <source src="assets/predigten/2020-05-31.mp3">
-                          </audio>
-                          <div id="audioplayer">
-                            <i id="pButton" class="fas fa-play"></i>
-                            <div id="timeline">
-                              <div id="playhead"></div>
-                            </div>
-                          </div>
+                    <div class="card-footer2" style="margin-bottom: 20px;">
+                        
+                          <!---->
+                          <audio controls="" autoplay="" name="media">
+                            <source src="assets/predigten/2020-05-31.mp3" type="audio/mpeg">
+                          </audio>                          
                     </div>
                 </div>
             </div>
@@ -200,6 +207,7 @@
   <script src="vendor/gallery/script.js"></script>
   
   <script>
+      /*
     var music = document.getElementById('music'); // id for audio element
     var duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
     var pButton = document.getElementById('pButton'); // play button
@@ -305,6 +313,7 @@
     function getPosition(el) {
         return el.getBoundingClientRect().left;
     }
+    */
   </script>
     
 </body>
