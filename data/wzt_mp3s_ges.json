@@ -2,10 +2,18 @@
     {
         "artistName": "Pastor Sommerfeld - Josua Gemeinde",
         "coverImage": "https:\/\/static.wixstatic.com\/media\/5587d4_392c3f8ef3e64539b08fa41cd073b66b~mv2.jpg",
+        "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_53acd83c5bd340eba8a44c2034066ac6.mp3",
+        "trackName": "Matth\u00e4us 1,18-19",
+        "Tag": "2021-12-15T00:00:00Z",
+        "index": "1."
+    },
+    {
+        "artistName": "Pastor Sommerfeld - Josua Gemeinde",
+        "coverImage": "https:\/\/static.wixstatic.com\/media\/5587d4_392c3f8ef3e64539b08fa41cd073b66b~mv2.jpg",
         "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_3459b4477af84e48bd574547f599bb10.mp3",
         "trackName": "Lukas 1,28-30",
         "Tag": "2021-12-14T00:00:00Z",
-        "index": "1."
+        "index": "2."
     },
     {
         "artistName": "Pastor Sommerfeld - Josua Gemeinde",
@@ -13,7 +21,7 @@
         "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_27456c21efe9487a894daef919e1cac6.mp3",
         "trackName": "Johannes 1,40-42",
         "Tag": "2021-12-13T00:00:00Z",
-        "index": "2."
+        "index": "3."
     },
     {
         "artistName": "Pastor Sommerfeld - Josua Gemeinde",
@@ -21,7 +29,7 @@
         "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_8f7293c63d2b4d6b84172690490d13e6.mp3",
         "trackName": "Lukas 2,16ff",
         "Tag": "2021-12-11T00:00:00Z",
-        "index": "3."
+        "index": "4."
     },
     {
         "artistName": "Pastor Sommerfeld - Josua Gemeinde",
@@ -29,14 +37,6 @@
         "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_f4eec86897814e6caee1ea41f2a1181a.mp3",
         "trackName": "Lukas 2,13-14",
         "Tag": "2021-12-10T00:00:00Z",
-        "index": "4."
-    },
-    {
-        "artistName": "Pastor Sommerfeld - Josua Gemeinde",
-        "coverImage": "https:\/\/static.wixstatic.com\/media\/5587d4_392c3f8ef3e64539b08fa41cd073b66b~mv2.jpg",
-        "src": "https:\/\/static.wixstatic.com\/mp3\/5587d4_1db10d34951b42ae9ad023f9b346a908.mp3",
-        "trackName": "Friede ...",
-        "Tag": "2021-12-09T00:00:00Z",
         "index": "5."
     }
 ]
